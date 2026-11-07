@@ -13,7 +13,7 @@ permissions:
 jobs:
   # Every target in stoker-plugin.yaml, built by the SDK's reusable workflow against the SDK release it pins.
   build:
-    uses: StokerHQ/plugin-sdk/.github/workflows/build-hook-plugin.yml@v1.0.1
+    uses: StokerHQ/plugin-sdk/.github/workflows/build-hook-plugin.yml@v1.0.2
 
   tests:
     runs-on: windows-latest
